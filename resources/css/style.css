@@ -15,6 +15,7 @@ html {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -126,6 +127,14 @@ h3 {
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+.section-plans .row .plan-box .ion-ios-checkmark-empty {
+  color: #22e64d;
+}
+
+.section-plans .row .plan-box .ion-ios-close-empty {
+  color: #e62222;
 }
 
 /* --------- NAVIGATION --------- */
@@ -373,7 +382,6 @@ blockquote span img {
 .plan-price {
   font-size: 300%;
   margin-bottom: 10px;
-  font-weight: 100;
   color: #e67e22;
 }
 
