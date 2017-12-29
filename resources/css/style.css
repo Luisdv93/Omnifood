@@ -578,3 +578,17 @@ a:hover, a:active {
   border: 1px solid #e67e22;
   color: #FFF;
 }
+
+/*------------------------------------------------
+                   ANIMATIONS
+------------------------------------------------*/
+
+.js-wp-1, .js-wp-2, .js-wp-3, .js-wp-4 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js-wp-1.animated, .js-wp-2.animated, .js-wp-3.animated, .js-wp-4.animated {
+  opacity: 1;
+}
+
