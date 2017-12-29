@@ -171,6 +171,19 @@ h3 {
   border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile Navigation */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.ion-navicon-round, .ion-close-round {
+  font-size: 200%;
+  color: #FFF;
+}
+
 /* --------- STICKY NAVIGATION --------- */
 
 .sticky {

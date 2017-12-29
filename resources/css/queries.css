@@ -71,6 +71,33 @@
 
   .main-nav {display: none;}
 
+  body .mobile-nav-icon {display: inline-block;}
+
+  body .main-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  body .main-nav li {display: block;}
+
+  body .main-nav li a:link, body .main-nav li a:visited {
+    display: block;
+    border: none;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {margin-top: 10px;}
+  
+  body .sticky li a:link, body .sticky li a:visited  {
+    padding: 10px 0;
+  }
+
+  .sticky .mobile-nav-icon i {color: #555;}
+
+  body .sticky .mobile-nav-icon { margin-top: 10px;}
+
   .section-features .long-copy {
     width: 100%;
     margin-left: 0;

@@ -45,9 +45,24 @@ $(document).ready(function () {
   });
 
   $('.js-wp-5').waypoint(function(direction){
-    $('.js-wp-5').addClass('animated wobble');
+    $('.js-wp-5').addClass('animated bounce');
   }, {
     offset: '50%'
+  });
+
+  /* Mobile Navigation */
+  $('.js-nav-icon').click(function(){
+    var nav = $('.js-main-nav');
+    var icon = $('.js-nav-icon i');
+    
+    nav.slideToggle(300);
+    if (icon.hasClass('ion-navicon-round')) {
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
   });
 
   /* Navigation Scroll */
