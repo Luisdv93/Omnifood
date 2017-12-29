@@ -52,7 +52,7 @@ section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
-  rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+  rgba(0, 0, 0, 0.5)), url(../img/hero-min.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -355,7 +355,7 @@ h3 {
 ------------------------------------------------*/
 
 .section-testimonials {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers-min.jpg);
   background-size: cover;
   color: #FFF;
   background-attachment: fixed;
