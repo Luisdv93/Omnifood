@@ -171,6 +171,37 @@ h3 {
   border-bottom: 2px solid #e67e22;
 }
 
+/* --------- STICKY NAVIGATION --------- */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 1;
+  transition: ease-in 0.5s;
+}
+
+.sticky .main-nav {margin-top: 19px;}
+
+.sticky li a:link, .sticky li a:visited  {
+  padding: 17px 0;
+  color: #555;
+}
+
+.logo-black {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+  display: none;
+}
+
+.sticky .logo {display: none;}
+.sticky .logo-black {display: block;}
+
 /*------------------------------------------------
                    FEATURES SECTION
 ------------------------------------------------*/
