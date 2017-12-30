@@ -1,1 +1,2 @@
-#Omnifood is a mockup website for a food delivery service.
+# Omnifood Website
+Omnifood is a food delivery service website. Built using CSS Responsive Grid, JS and JQuery.
