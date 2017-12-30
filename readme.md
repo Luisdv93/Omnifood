@@ -1,2 +1,5 @@
 # Omnifood Website
-Omnifood is a food delivery service website. Built using CSS Responsive Grid, JS and JQuery.
+You can find a live preview here: [Omnifood Preview](https://luisdv93.github.io/Omnifood/)
+
+[Omnifood](https://luisdv93.github.io/Omnifood/) is a food delivery service website. Built using CSS Responsive Grid, JS and JQuery.
+
